@@ -1,0 +1,82 @@
+/* цвет основной текста #212121 */
+/* вторичный цвет текста #757575 */
+/* фон шапки и футера #2F303A */
+/*  акцент #2196F3 */
+/* белый #FFFFFF */
+/* основной фон background: #FFFFFF */
+/* вторичный фон background: #F5F4FA */
+
+body {
+    color: #212121;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* Убираю точки со списка */
+ul{
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    color: #000000;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+/* Site nav */
+.link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.link:focus, 
+.link:hover {
+    color: #2196f3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* Hero */
+.hero-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+   
+}
+
+/* Section */
+.section-text {
+    color: #757575;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.button-filter {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button-filter:hover, 
+.button-filter:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
