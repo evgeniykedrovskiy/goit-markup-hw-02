@@ -171,7 +171,7 @@ ul{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-
+/* Футер */
 footer {
     background-color: #2F303A;
 }
@@ -204,10 +204,12 @@ footer {
     color: #FFFFFF99;
 }
 
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
+}
 
-
-
-
-
-
-
+.accent-studio:hover,
+.accent-studio:focus {
+    color: var(--accent-color);
+}
